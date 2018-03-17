@@ -24,7 +24,7 @@ def main():
 	
 	arquivo.close()
 
-	os.system("mv fonts.conf ~/.fonts.conf")
+	os.system("mv fonts.conf ~/.config/fontconfig/fonts.conf")
 	
 	print("\033[01;32m[*]\033[0;0m Sucesso!")
 
